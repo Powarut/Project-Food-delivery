@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "178421674523",
+    "firebase_url": "https://project-3e0ab.firebaseio.com",
+    "project_id": "project-3e0ab",
+    "storage_bucket": "project-3e0ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178421674523:android:91fbed9ed2108dec8fbebe",
+        "android_client_info": {
+          "package_name": "com.example.fooddeilvery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "178421674523-h5lhf21ouievq5qmf4a47kok28dgju5b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMimCMJ3CXBI-_13QT_h7C1ymf7GstWzM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "178421674523-h5lhf21ouievq5qmf4a47kok28dgju5b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Food deilvery</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashbord">Dashboard</string>
+    <string name="title_notification">Notifications</string>
+    <string name="signin">signin</string>
+
+    <string-array name="State">
+        <item>ปทุมธานี</item>
+        <item>รังสิต</item>
+    </string-array>
+
+    <string-array name="Shipper">
+        <item>Shipper 1 </item>
+        <item>Shipper 2</item>
+    </string-array>
+
+    <string-array name="DishName">
+        <item>ส้มตำ</item>
+        <item>ข้าวผัด</item>
+        <item>กะเพราราดข้าว</item>
+        <item>ผักคะน้า</item>
+        <item>ข้าวต้ม</item>
+    </string-array>
+</resources>
