@@ -56,7 +56,7 @@
             android:background="@drawable/btnred"
             android:drawableLeft="@drawable/whitemail"
             android:paddingLeft="20dp"
-            android:text="@string/signin"
+            android:text="เข้าสู่ระบบ"
             android:textColor="#F8F8F8"
             android:textIsSelectable="false"
             android:textSize="17sp"
@@ -106,7 +106,7 @@
             android:background="@drawable/btr_green"
             android:drawableLeft="@drawable/ic_signup"
             android:paddingLeft="20dp"
-            android:text="signup"
+            android:text="ลงทะเบียน"
             android:textColor="#FFFFFF"
             android:textSize="17sp"
             android:textStyle="bold" />

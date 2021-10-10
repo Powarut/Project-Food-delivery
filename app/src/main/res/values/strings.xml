@@ -4,6 +4,19 @@
     <string name="title_dashbord">Dashboard</string>
     <string name="title_notification">Notifications</string>
     <string name="signin">signin</string>
+    <string name="LASTNAME">นามสกุล</string>
+    <string name="FIRSTNAME">ชื่อ</string>
+    <string name="EMAIL">อีเมล์</string>
+    <string name="PASSWORD">รหัสผ่าน</string>
+    <string name="CONFINPASSWORD">ยืนยันรหัสผ่าน</string>
+    <string name="PHONE">เบอร์โทรศัพท์</string>
+    <string name="HOUSENO">บ้านเลขที่</string>
+    <string name="AREA">เขต</string>
+    <string name="STATEE">ถนน</string>
+    <string name="CITY">อำเภอ</string>
+    <string name="PINCODE">รหัสไปรษณีย์</string>
+    <string name="REGISTER">ลงทะเบียน</string>
+
 
     <string-array name="State">
         <item>ปทุมธานี</item>

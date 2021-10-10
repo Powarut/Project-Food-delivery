@@ -20,10 +20,16 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
 
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/relogodelivery02"/>
+
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/Lemail"
+            android:id="@+id/txt_emailid"
             android:layout_marginTop="15dp"
             android:paddingBottom="10dp">
             <com.google.android.material.textfield.TextInputEditText
@@ -31,14 +37,14 @@
                 android:layout_height="wrap_content"
                 android:drawableLeft="@drawable/ic_blackemail"
                 android:drawablePadding="10dp"
-                android:hint="Emil ID"
+                android:hint="อีเมล์"
                 android:inputType="textEmailAddress"/>
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/Lpassword"
+            android:id="@+id/Lpwd"
             android:layout_marginTop="11dp"
             android:paddingBottom="5dp"
             app:passwordToggleEnabled="true">
@@ -46,9 +52,38 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:drawablePadding="10dp"
-                android:hint="Password"
+                android:hint="รหัสผ่าน"
                 android:inputType="textPassword"/>
         </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Forgotpass"
+            android:text="ลืมรหัสผ่าน?"
+            android:gravity="end"
+            android:textSize="16sp"
+            android:textColor="#090909"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/button4"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btr_green"
+            android:text="เข้าสู่ระบบ"
+            android:textSize="18sp"
+            android:textColor="#FFFF"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtview3"
+            android:gravity="center"
+            android:text="ยังไม่มีข้อมูล ลงทะเบียนเลย"
+            android:layout_marginTop="10dp"
+            android:textColor="#090909"
+            android:textSize="16sp"/>
 
     </LinearLayout>
 

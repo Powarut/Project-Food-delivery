@@ -64,24 +64,18 @@ public class MainMenu extends AppCompatActivity {
         signin=(Button)findViewById(R.id.btn_signin);
         signup=(Button)findViewById(R.id.btn_signup);
 
-        signup.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent signup = new Intent(MainMenu.this,ChooseOne.class);
-                signup.putExtra("Home","SignUp");
-                startActivity(signup);
-                finish();
-            }
+        signup.setOnClickListener(view -> {
+            Intent signup = new Intent(MainMenu.this,Register.class);
+            signup.putExtra("Home","SignUp");
+            startActivity(signup);
+            finish();
         });
 
-        signin.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent signin = new Intent(MainMenu.this,Register.class);
-                signin.putExtra("Home","signIn");
-                startActivity(signin);
-                finish();
-            }
+        signin.setOnClickListener(view -> {
+            Intent signin = new Intent(MainMenu.this,Login.class);
+            signin.putExtra("Home","SignIn");
+            startActivity(signin);
+            finish();
         });
     }
 

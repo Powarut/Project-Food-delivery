@@ -27,7 +27,9 @@
                 android:id="@+id/imageView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/logoregister" />
+                android:layout_marginTop="15dp"
+                app:srcCompat="@drawable/logoregister"
+                android:contentDescription="@string/title_dashbord" />
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/Firstname"
@@ -37,7 +39,7 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="First name"
+                    android:hint="@string/FIRSTNAME"
                     android:inputType="text"
                     tools:ignore="TouchTargetSizeCheck" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -50,7 +52,7 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Last name"
+                    android:hint="@string/LASTNAME"
                     android:inputType="text"
                     tools:ignore="TouchTargetSizeCheck" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -63,9 +65,9 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:drawableLeft="@drawable/ic_blackemail"
+                    android:drawableStart="@drawable/ic_blackemail"
                     android:drawablePadding="10dp"
-                    android:hint="Email ID"
+                    android:hint="@string/EMAIL"
                     android:inputType="textEmailAddress"
                     tools:ignore="TouchTargetSizeCheck" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -79,7 +81,7 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Password"
+                    android:hint="@string/PASSWORD"
                     android:inputType="textVisiblePassword" />
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -92,7 +94,7 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Confirm Password"
+                    android:hint="@string/CONFINPASSWORD"
                     android:inputType="textVisiblePassword" />
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -101,22 +103,22 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="11dp"
                 android:orientation="horizontal">
+
                 <com.hbb20.CountryCodePicker
                     android:id="@+id/CountryCode"
                     android:layout_width="120dp"
                     android:layout_height="wrap_content">
-
                 </com.hbb20.CountryCodePicker>
 
                 <com.google.android.material.textfield.TextInputLayout
-                    android:id="@+id/mobileno"
+                    android:id="@+id/Mobileno"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:hint="Mobile Number"
+                        android:hint="@string/PHONE"
                         android:inputType="number"
                         tools:ignore="TouchTargetSizeCheck" />
                 </com.google.android.material.textfield.TextInputLayout>
@@ -130,7 +132,7 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="House NO" />
+                    android:hint="@string/HOUSENO" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
@@ -141,7 +143,7 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Area" />
+                    android:hint="@string/AREA" />
 
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -149,11 +151,11 @@
                 android:id="@+id/txt1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Statee"
+                android:text="@string/STATEE"
                 android:textSize="14sp" />
 
             <Spinner
-                android:id="@+id/city"
+                android:id="@+id/Citys"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
@@ -161,10 +163,10 @@
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="City" />
+                android:text="@string/CITY" />
 
             <Spinner
-                android:id="@+id/statee"
+                android:id="@+id/Statee"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
@@ -177,7 +179,7 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Pin Code" />
+                    android:hint="@string/PINCODE" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <Button
@@ -186,7 +188,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/btr_green"
-                android:text="Register"
+                android:text="@string/REGISTER"
                 android:textColor="#FAF9F9" />
 
         </LinearLayout>
